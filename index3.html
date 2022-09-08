@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+
+    h1{
+        font-family: Trebuchet MS, sans-serif;
+    }
+   
+    .grid-container{
+        display: grid;
+        
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto 100px;
+    }
+
+    .header{
+        grid-column: 1/-1;
+        background-color: #022122;
+        padding: 0 0 10px 0;
+    }
+
+    .body{
+        grid-column: 1/-1;
+    }
+
+    .footer{
+        grid-column: 1/-1;
+    }
+    .header-flex{
+        display: flex;
+        justify-content: end;
+        gap: 0 15px;
+        padding: 0 0 10px 0;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .button{
+        background-color: rgb(255, 217, 0);
+        padding: 2px 15px;
+    }
+    .text{
+        color: aliceblue;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .header-flex2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .aaa{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.3rem;
+    }
+    .x{
+        height: 140px;
+        width: 140px;
+    }
+
+    .header-flex3{
+        display: flex;
+        justify-content: center;
+     
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        color: aliceblue;
+        display: flex;
+        gap: 50px;
+        font-size: 1.3rem;
+        font-family: Trebuchet MS, sans-serif;
+    }
+    a:hover{
+        color: rgb(255, 217, 0);
+        cursor: grab;
+    }
+
+
+    
+
+</style>
+<body>
+    
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="header-flex">
+                <div class="item text login"><img src="clock.png" height="16px" width="16px"><a>Åpningstider</a></div>
+                <div class="item text login"><img src="planet-earth.png" height="16px" width="16px"><a>Språkvelger</a></div>
+                <div class="item button login"><img src="user.png" height="16px" width="16px"><a>Logg Inn</a></div>
+            </div>
+            <div class="header-flex2">
+                <div class="aa"><img src="https://cdn.axiell.com/norway/drammen/images/logo-extra.png" height="140px" width="140px"></div>
+                <div class="aaa"><h1>Drammensbibliotek</h1></div>
+                <div class="x"></div>
+            </div>
+            <div class="header-flex3">
+                <div class="nav">
+                    <ul>
+                        <a>Startside</a>
+                        <a>Våre Bibliotek</a>
+                        <a>Informasjon</a>
+                        <a>Aragmenter</a>
+                        <a>Digitale Tjenester</a>
+                        <a>Inspirasjon</a>
+                        <a>Søk</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-part1">
+                <img class="imga" src="illbilde_900.jpg">
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+</html>

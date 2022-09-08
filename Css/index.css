@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0 15%;
+}
+
+div{
+    border-style: solid;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 400px 100px;
+}
+
+
+.header{
+    grid-column: 1/-1;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}   
+ 
+
+.body{
+    grid-column: 1/-1;
+}
+
+.body-section-1{
+    background-color: aquamarine;
+ 
+}
+
+
+.footer{
+    grid-column: 1/-1;
+}
+
+
+
+
+
+
+
+
+
+
+
