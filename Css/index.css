@@ -29,7 +29,9 @@ div{
 
 .body-section-1{
     background-color: aquamarine;
- 
+    background-image: url("../Image/image1.jpg");
+    
+    height: 100%;
 }
 
 
