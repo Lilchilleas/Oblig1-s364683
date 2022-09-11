@@ -1,12 +1,14 @@
 .header > h1{
     margin: 0;
 }
-
+.header{
+    padding: 0 1rem;
+}
 nav{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    font-family: 'Dosis','Courier New', Courier, monospace;
+    
 }
 ul{
     margin: 0;
@@ -16,6 +18,10 @@ li{
     list-style: none;
     display: flex;
     gap: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 #logo{
     margin: auto 0;
