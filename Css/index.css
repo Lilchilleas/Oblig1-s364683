@@ -1,11 +1,17 @@
+html {
+	scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0 10%;
-    
 }
 
-
-
+p{
+    font-style: italic;
+}
+h1,h2,h3,h4{
+    font-family: 'Arvo', serif;       
+}
 
 .grid-container{
     display: grid;
@@ -48,6 +54,7 @@ body{
 .body-section-3 > h1,.price{
     text-align: center;
 }
+
 .body-section-3 h2{
     text-align: center;
 }
@@ -70,8 +77,13 @@ body{
 
 .footer{
     grid-column: 1/-1;
-  
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 
