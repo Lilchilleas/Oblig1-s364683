@@ -1,5 +1,5 @@
 # Oblig1-s364683 - Restaurant Website
-Denne oppgaven er en innlevering i Algoritmer og Datastrukturer. Oppgaven er levert av følgende studenter:
+Denne oppgaven er en innlevering i Data1200. 
 
 Fullt Navn: Achilleas Angos Pavlovic
 
