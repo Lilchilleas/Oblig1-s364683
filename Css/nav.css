@@ -19,13 +19,13 @@ li{
     display: flex;
     gap: 100px;
 }
-a{
+nav a{
     text-decoration: none;
     color: white;
     font-family: 'Arvo', serif;
-    
 }
-a:hover{
+ 
+nav a:hover{
     color: #F6E0B3;
 }
 #logo{
