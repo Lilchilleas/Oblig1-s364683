@@ -1,2 +1,8 @@
 # Oblig1-s364683 - Restaurant Website
- Create a simple webpage with a menu for a café / restaurant. It should contain at least seven dishes, between three courses (f.ex. 'lunch', 'dinner' and 'snacks').
+Denne oppgaven er en innlevering i Algoritmer og Datastrukturer. Oppgaven er levert av følgende studenter:
+
+Fullt Navn: Achilleas Angos Pavlovic
+
+StudentNr: s364683
+
+Epost: s364683@oslomet.no
